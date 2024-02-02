@@ -3,6 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Contêiner em HTML</title>
+    <style>
+        /* Estilos para o vídeo de fundo */
+        video {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            transform: translate(-50%, -50%);
+            z-index: -1;
+        }
+
+        /* Estilos opcionais para o contêiner */
+        .container {
+            width: 80%;
+            margin: 140px auto; /* Adicionando margem em cima e abaixo, e centralizando horizontalmente */
+            background-color: rgba(151, 151, 151, 0.7); /* Adicione um fundo branco semi-transparente para melhor visibilidade do texto */
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Vídeo de fundo -->
+    <video autoplay muted loop>
+        <source src="/black_-_13495 (540p).mp4" type="video/mp4">
+    </video>
+
+    <!-- Contêiner com conteúdo -->
+    <div class="container">
+        <h1>Requisitos:</h1>
+        <ul>
+            <li>Livros</li>
+            <li>Sistema</li>
+            <li>Computadores</li>
+            <li>Internet</li>
+        </ul>
+
+        <h2>Create:</h2>
+        <p>
+            - Adicionar um novo livro à biblioteca com informações como o título, autor, ano de publicação, etc. <br>
+            - Registrar dados das requisições de livros e dos respectivos alunos, como o nome de ambos, nº de ambos e data.
+        </p>
+
+        <h2>Read:</h2>
+        <p>
+            - Visualizar a lista de todos os livros disponíveis na biblioteca, com detalhes como título, autor, disponibilidade. <br>
+            - Visualizar informações sobre os alunos da escola e quais têm livros requisitados e/ou multas a pagar.
+        </p>
+
+        <h2>Update:</h2>
+        <p>
+            - Atualizar o estado do livro (requisitado, em bom estado, disponível) <br>
+            - Atualizar informações do aluno, como o nº de livros já requisitados ou se existe alguma multa a ser aplicada.
+        </p>
+
+        <h2>Delete:</h2>
+        <p>
+            - Excluir o registro de um aluno que não faz mais parte da escola. <br>
+            - Remover um livro do sistema quando não estiver mais disponível ou for entregue uma versão mais recente com o mesmo conteúdo.
+        </p>
+        <br><br>
+<p><h1>Ações dos Atores</h1></p>
+        <h2>Aluno:</h2>
+        <ul>
+            <li>Pesquisar por livros.</li>
+            <li>Solicitar requisições de livros.</li>
+            <li>Devolver livros requisitados.</li>
+            <li>Renovar requisições, se permitido pelo sistema.</li>
+            <li>Dar informações sobre a conta, como nome e número de aluno.</li>
+            <li>Pagar multas quando aplicadas.</li>
+        </ul>
+
+        <h2>Bibliotecária:</h2>
+        <ul>
+            <li>Adicionar novos livros ao sistema.</li>
+            <li>Remover livros danificados ou descontinuados do sistema.</li>
+            <li>Gerenciar o estado de empréstimos e devoluções.</li>
+            <li>Cadastrar novos alunos na biblioteca.</li>
+            <li>Atualizar informações de alunos.</li>
+            <li>Resolver problemas relacionados a empréstimos ou devoluções, como aplicar multas.</li>
+            <li>Gerar relatórios sobre o uso do sistema.</li>
+        </ul>
+
+        <h2>Sistema:</h2>
+        <ul>
+            <li>Guardar e fornecer dados sobre os alunos.</li>
+            <li>Fornecer informações atualizadas sobre os livros.</li>
+            <li>Sincronizar dados sobre novos livros ou edições com o sistema.</li>
+            <li>Receber consultas de pesquisa e retornar resultados relevantes.</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <div class="iframe-container">
+            <iframe allowfullscreen frameborder="0" style="width:1170px; height:480px" src="https://lucid.app/documents/embedded/15e10d42-3d18-4f0d-b251-ff36f7794a84" id="cLg_J~5B~C-p"></iframe>
+        </div>
+        <div class="iframe-container">
+            <iframe allowfullscreen frameborder="0" style="width:1170px; height:480px" src="https://lucid.app/documents/embedded/ad291095-806e-4c83-850c-d269795a5e56" id="ULg_vpu0ZiF9"></iframe>
+        </div>
+    
+    </div>
+</body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
